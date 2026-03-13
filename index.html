@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EricHour | Personal Page</title>
+    <title>EricHour | 个人主页</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://avatars.githubusercontent.com/u/24457241?v=4">
 </head>
@@ -15,7 +15,7 @@
                 <img src="https://avatars.githubusercontent.com/u/24457241?v=4" alt="EricHour">
             </div>
             <h1 class="name">EricHour</h1>
-            <p class="tagline">Tech Enthusiast | Developer | Open Source</p>
+            <p class="tagline">技术爱好者 | 开发者 | 开源贡献者</p>
             <div class="social-links">
                 <a href="https://github.com/zoranke" target="_blank" class="social-link">
                     <svg height="24" viewBox="0 0 16 16" width="24">
@@ -28,70 +28,70 @@
 
         <!-- About Section -->
         <section class="section">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">关于我</h2>
             <p class="about-text">
-                I'm a tech enthusiast passionate about open source, automation, and building useful tools.
-                Currently exploring AI/ML, cloud-native technologies, and home automation.
+                我是一名技术爱好者，热衷于开源项目、自动化和构建实用工具。
+                目前正在探索人工智能/机器学习、云原生技术和智能家居自动化。
             </p>
         </section>
 
         <!-- Skills Section -->
         <section class="section">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">技能专长</h2>
             <div class="skills-grid">
                 <div class="skill-card">
-                    <h3>🖥️ Development</h3>
+                    <h3>🖥️ 开发</h3>
                     <p>Python, JavaScript, TypeScript, Bash</p>
                 </div>
                 <div class="skill-card">
-                    <h3>☁️ Cloud & DevOps</h3>
+                    <h3>☁️ 云与运维</h3>
                     <p>Docker, Kubernetes, CI/CD, Linux</p>
                 </div>
                 <div class="skill-card">
-                    <h3>🏠 Home Lab</h3>
-                    <p>Home Assistant, NAS, Self-hosting</p>
+                    <h3>🏠 家庭实验室</h3>
+                    <p>Home Assistant, NAS, 自托管服务</p>
                 </div>
                 <div class="skill-card">
-                    <h3>🤖 AI & Automation</h3>
-                    <p>LLM, RAG, Workflow Automation</p>
+                    <h3>🤖 AI 与自动化</h3>
+                    <p>LLM, RAG, 工作流自动化</p>
                 </div>
             </div>
         </section>
 
         <!-- Projects Section -->
         <section class="section">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title">精选项目</h2>
             <div class="projects-grid">
                 <a href="https://github.com/zoranke/zoranke.github.io" class="project-card">
-                    <h3>Personal Page</h3>
-                    <p>This website - A modern personal homepage</p>
+                    <h3>个人主页</h3>
+                    <p>本网站 - 一个现代化的个人主页</p>
                     <span class="project-tag">HTML/CSS</span>
                 </a>
                 <a href="https://github.com/zoranke/WorkerVless2sub" class="project-card">
                     <h3>WorkerVless2sub</h3>
-                    <p>Cloudflare Workers VLESS subscription generator</p>
+                    <p>Cloudflare Workers VLESS 订阅生成器</p>
                     <span class="project-tag">Cloudflare</span>
                 </a>
                 <a href="https://github.com/zoranke/PCBfactory-auto-check-in" class="project-card">
-                    <h3>Auto Check-in</h3>
-                    <p>Automated check-in using GitHub Actions</p>
-                    <span class="project-tag">Automation</span>
+                    <h3>自动签到</h3>
+                    <p>使用 GitHub Actions 实现自动签到</p>
+                    <span class="project-tag">自动化</span>
                 </a>
             </div>
         </section>
 
         <!-- Blog Section -->
         <section class="section">
-            <h2 class="section-title">Latest Posts</h2>
+            <h2 class="section-title">最新文章</h2>
             <div class="blog-list" id="blog-list">
-                <p>Loading posts...</p>
+                <p>正在加载文章...</p>
             </div>
-            <a href="blog.html" class="view-all">View All Posts →</a>
+            <a href="blog.html" class="view-all">查看所有文章 →</a>
         </section>
 
         <!-- Footer -->
         <footer class="footer">
-            <p>© 2026 EricHour. Built with ❤️</p>
+            <p>© 2026 EricHour. 用 ❤️ 构建</p>
             <p>
                 <a href="https://github.com/zoranke">GitHub</a>
             </p>
@@ -116,11 +116,11 @@
                         `;
                     }).join('');
                 } else {
-                    blogList.innerHTML = '<p>No posts yet.</p>';
+                    blogList.innerHTML = '<p>暂无文章</p>';
                 }
             })
             .catch(() => {
-                document.getElementById('blog-list').innerHTML = '<p>Failed to load posts.</p>';
+                document.getElementById('blog-list').innerHTML = '<p>加载文章失败</p>';
             });
     </script>
 </body>
